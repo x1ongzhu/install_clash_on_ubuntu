@@ -77,6 +77,6 @@ return 1
 fi
 sudo gzip -c -d "$ZIP_FILE" > /usr/bin/clash
 sudo chmod +x /usr/bin/clash
-sudo cp -rf clash /etc/clash
+sudo cp -R clash /etc/
 sudo cp /etc/clash/config_example.yaml /etc/clash/config.yaml
 sudo cp clash.service /etc/systemd/system/clash.service
