@@ -1,0 +1,11 @@
+[Unit]
+Description=clash
+After=network.target
+
+[Service]
+WorkingDirectory=/etc/clash/
+ExecStart=/etc/clash/start-clash.sh
+ExecStop=/etc/clash/stop-clash.sh
+
+[Install]
+WantedBy=multi-user.target
