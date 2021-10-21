@@ -28,9 +28,9 @@ dns:
 proxies:
   - name: LA
     type: vmess
-    server: b1og.x1ongzhu.cn
+    server: example.com
     port: 443
-    uuid: 69824203-f51c-4d25-ba93-2d7a9452014a
+    uuid: 
     alterId: 233
     cipher: auto
     udp: true
